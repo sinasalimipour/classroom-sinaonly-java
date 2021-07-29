@@ -127,21 +127,47 @@ public class Main {
 			
 		
 		
-		//TODO  switches 
+//		//TODO  switches 
+//		
+//		
+//		String day= "sina";
+//		switch(day) {
+//		case "sunday":System.out.println("it  is sunday ");
+//		break;
+//		case "monday":System.out.println("it  is monday ");
+//		break;
+//		case "Friday":System.out.println("it  is Friday ");
+//		break;
+//		default:System.out.println("not a day ");
+//		}
+//		
+		//TODO  logical operators 
+		
+//		
+//		int tamp = 26;
+//		if(tamp>30) {
+//			System.out.println("hot out side");
+//		}
+//		else if (tamp>=20 && tamp<=30 ){
+//			System.out.println("warm out side ");
+//		}
+//		else 
+//		{
+//			System.out.println("cold out side ");
+//		}
+		
+		Scanner scanner =new Scanner(System.in);
+		
+		System.out.println("you play game  press q for quit");
+		String response = scanner.next();
 		
 		
-		String day= "mondayw";
-		switch(day) {
-		case "sunday":System.out.println("it  is sunday ");
-		break;
-		case "monday":System.out.println("it  is monday ");
-		break;
-		case "Friday":System.out.println("it  is Friday ");
-		break;
-		default:System.out.println("not a day ");
+		if (response.equals("q") || response.equals("Q")) {
+			System.out.println("you quit game ");
 		}
-		
-		
+		else {
+			System.out.println("you palying game ");
+		}
 		
 	}
 
