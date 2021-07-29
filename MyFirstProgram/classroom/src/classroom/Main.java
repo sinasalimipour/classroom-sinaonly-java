@@ -2,6 +2,7 @@ package classroom;
 
 import java.swing.JOptionPane;
 import java.util.Scanner;
+import java.util.Random;
 public class Main {
 
 	public static void main(String[] args) {
@@ -77,22 +78,71 @@ public class Main {
 //		javax.swing.JOptionPane.showMessageDialog(null, "you are "+height+" cm tall");
 		
 		
-		//TODO Math class 
+//		//TODO Math class 
+//		
+//		double x;
+//		double y;
+//		double z;
+//	    Scanner scanner =new Scanner(System.in);
+//	    
+//	    System.out.println("enter side x:");
+//	    x= scanner.nextDouble();
+//	    System.out.println("enter side y");
+//	    y= scanner.nextDouble();
+//	    
+//	    z = Math.sqrt((x*x)+(y*y));
+//	    
+//		System.out.println("the hypotenuse is:"+z);
+//		scanner.close();
 		
-		double x;
-		double y;
-		double z;
-	    Scanner scanner =new Scanner(System.in);
-	    
-	    System.out.println("enter side x:");
-	    x= scanner.nextDouble();
-	    System.out.println("enter side xy");
-	    y= scanner.nextDouble();
-	    
-	    z = Math.sqrt((x*x)+(y*y));
-	    
-		System.out.println("the hypotenuse is:"+z);
-		scanner.close();
+		//TODO  random numbers 
+		
+		
+		//Random random =new Random();
+		
+		//int x = random.nextInt(6)+1;
+		//Double y=random.nextDouble();
+		
+		//System.out.println(y);
+
+		
+		
+		
+//		//TODO  if statements 
+//		
+//		
+//		int age = 80 ;
+//		
+//		if (age>18) {
+//			
+//		    System.out.println("adult!");
+//		}
+//		else if(age>=75){
+//			System.out.println("boomer");
+//		}
+//			
+//		else {
+//			System.out.println("kid");
+//		}
+			
+		
+		
+		//TODO  switches 
+		
+		
+		String day= "mondayw";
+		switch(day) {
+		case "sunday":System.out.println("it  is sunday ");
+		break;
+		case "monday":System.out.println("it  is monday ");
+		break;
+		case "Friday":System.out.println("it  is Friday ");
+		break;
+		default:System.out.println("not a day ");
+		}
+		
+		
+		
 	}
 
 }
