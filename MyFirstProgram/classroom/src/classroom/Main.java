@@ -156,18 +156,28 @@ public class Main {
 //			System.out.println("cold out side ");
 //		}
 		
-		Scanner scanner =new Scanner(System.in);
-		
-		System.out.println("you play game  press q for quit");
-		String response = scanner.next();
 		
 		
-		if (response.equals("q") || response.equals("Q")) {
-			System.out.println("you quit game ");
-		}
-		else {
-			System.out.println("you palying game ");
-		}
+//		Scanner scanner =new Scanner(System.in);
+//		
+//		System.out.println("you play game  press q for quit");
+//		String response = scanner.next();
+//		
+//		
+//		if (response.equals("q") || response.equals("Q")) {
+//			System.out.println("you quit game ");
+//		}
+//		else {
+//			System.out.println("you palying game ");
+//		}
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 
