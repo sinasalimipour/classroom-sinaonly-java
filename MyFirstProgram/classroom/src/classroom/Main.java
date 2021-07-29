@@ -1,6 +1,7 @@
 package classroom;
-import java.util.Scanner;
 
+import java.swing.JOptionPane;
+import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
@@ -53,26 +54,45 @@ public class Main {
 		
 		//TODO expressions
 		
-		int friends = 10 ;
-		friends++;
-		
-		System.out.println(friends);
-		
-		
-		
-		
+//		int friends = 10 ;
+//		friends++;
+//		
+//
+//		
+//		System.out.println(friends);
 		
 		
 		
+		//TODO GUI
+		
+//		String name = javax.swing.JOptionPane.showInputDialog("enter your name");
+//		javax.swing.JOptionPane.showMessageDialog(null, "hello "+name);
+//		
+//		
+//		int age = Integer.parseInt(javax.swing.JOptionPane.showInputDialog("enter your age"));
+//		javax.swing.JOptionPane.showMessageDialog(null, "you are "+age+" years old");
+//		
+//		
+//		Double height = Double.parseDouble(javax.swing.JOptionPane.showInputDialog("enter your heiht"));
+//		javax.swing.JOptionPane.showMessageDialog(null, "you are "+height+" cm tall");
 		
 		
+		//TODO Math class 
 		
-		
-		
-		
-		
-		
-		
+		double x;
+		double y;
+		double z;
+	    Scanner scanner =new Scanner(System.in);
+	    
+	    System.out.println("enter side x:");
+	    x= scanner.nextDouble();
+	    System.out.println("enter side xy");
+	    y= scanner.nextDouble();
+	    
+	    z = Math.sqrt((x*x)+(y*y));
+	    
+		System.out.println("the hypotenuse is:"+z);
+		scanner.close();
 	}
 
 }
