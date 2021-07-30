@@ -225,12 +225,18 @@ public class Main {
 		
 		//TODO  arrays
 		
-		String[] cars = {"tesla","corvette","BMW"};
-		cars[0]="mustang";
+//		String[] cars = {"tesla","corvette","BMW"};
+//		
+//		cars[0]="mustang";
+//		
+//		System.out.print(cars[0]);
 		
-		System.out.print(cars[0]);
-		
-		
+		String[] cars = new String[3];
+		cars[0]= "bmw";
+		cars[1]= "corvette";
+		cars[2]= "tesla";
+		cars[3]= "camaro";
+		System.out.print(cars[2]);
 		
 		
 		
