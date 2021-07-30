@@ -173,6 +173,67 @@ public class Main {
 		
 		
 		
+//		//TODO while loop
+//		
+//		Scanner scanner =new Scanner(System.in);
+//		String name = "";
+//		do{
+//			System.out.println("enter name: ");
+//			name = scanner.nextLine();
+//		}while(name.isBlank()) ;
+//		
+//		System.out.println("hello " + name);
+		
+		
+		
+		//TODO for loop
+		
+		
+		
+		
+//		for(int i= 40; i>=0;i-=6 ) {
+//			
+//			System.out.println(i);
+//			i-=4;
+//		}
+//		
+//		System.out.println("happy new year");
+		
+		
+		//TODO nested loops 
+		
+		Scanner scanner =new Scanner(System.in);
+		
+		int rows;
+		int columns;
+		String symbol = "";
+		System.out.println("enter # of rows");
+		rows =scanner.nextInt();
+		System.out.println("enter # of columns");
+		columns =scanner.nextInt();
+		System.out.println("enter # of symbol");
+		symbol =scanner.next();
+		
+		
+		
+		for(int i = 1; i<=rows;i++) {
+			System.out.println();
+			for(int j=1; j<=columns;j++) {
+				System.out.print(symbol);
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
