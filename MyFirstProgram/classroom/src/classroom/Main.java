@@ -245,12 +245,28 @@ public class Main {
 		
 		
 		
+		//TODO 2D arrays
 		
+		String[][] cars = new String[3][3];
 		
+		cars[0][0]="Camaro ";
+		cars[0][1]="tesla";
+		cars[0][2]="tesla s";
+		cars[1][0]="tesla f";
+		cars[1][1]="tesla g";
+		cars[1][2]="tesla d";
+		cars[2][0]="tesla b";
+		cars[2][1]="tesla v";
+		cars[2][2]="tesla t";
 		
-		
-		
-		
+		for(int i =0; i >cars.length;i++) {
+		System.out.println();
+		 for(int j=0; j <cars[i].length;j++) {
+			 System.out.println(cars[i][j]+" ");
+		 
+		 }
+		 
+		}
 		
 	}
 
