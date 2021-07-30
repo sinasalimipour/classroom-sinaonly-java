@@ -270,17 +270,23 @@ public class Main {
 		
 		
 		
-		//TODO 2D  String methods
-		String name = "sina";
-		//boolean result=name.equals("sina");
-		//int result=name.length();
-		char result = name .charAt(0);
+//		//TODO 2D  String methods
+//		String name = "sina";
+//		//boolean result=name.equals("sina");
+//		//int result=name.length();
+//		//char result = name .charAt(0);
+//		
+//		
+//		
+//		 System.out.print(result);
 		
+		//TODO wrapper classes 
 		
-		
-		 System.out.print(result);
-		
-		
+//		
+//		Boolean a = true;
+//		Character b ='@';
+//		Integer c = 123;
+//		
 		
 		
 		
