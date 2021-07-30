@@ -227,20 +227,20 @@ public class Main {
 		
 //		String[] cars = {"tesla","corvette","BMW"};
 //		
-//		cars[0]="mustang";
+////		cars[0]="mustang";
+////		
+////		System.out.print(cars[0]);
 //		
-//		System.out.print(cars[0]);
-		
-		String[] cars = new String[3];
-		cars[0]= "bmw";
-		cars[1]= "corvette";
-		cars[2]= "tesla";
-		cars[3]= "camaro";
-//		System.out.print(cars[2]);
-		
-		for(int i=0;i<cars.length;i++) {
-			System.out.print(cars[i]);
-		}
+//		String[] cars = new String[3];
+//		cars[0]= "bmw";
+//		cars[1]= "corvette";
+//		cars[2]= "tesla";
+//		
+////		System.out.print(cars[2]);
+//		
+//		for(int i=0;i<cars.length;i++) {
+//			System.out.println(cars[i]);
+//		}
 		
 		
 		
