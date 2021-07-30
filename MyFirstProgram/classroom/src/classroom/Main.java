@@ -202,31 +202,33 @@ public class Main {
 		
 		//TODO nested loops 
 		
-		Scanner scanner =new Scanner(System.in);
+//		Scanner scanner =new Scanner(System.in);
+//		
+//		int rows;
+//		int columns;
+//		String symbol = "";
+//		System.out.println("enter # of rows");
+//		rows =scanner.nextInt();
+//		System.out.println("enter # of columns");
+//		columns =scanner.nextInt();
+//		System.out.println("enter # of symbol");
+//		symbol =scanner.next();
+//		
+//		
+//		
+//		for(int i = 1; i<=rows;i++) {
+//			System.out.println();
+//			for(int j=1; j<=columns;j++) {
+//				System.out.print(symbol);
+//			}
+//		}
 		
-		int rows;
-		int columns;
-		String symbol = "";
-		System.out.println("enter # of rows");
-		rows =scanner.nextInt();
-		System.out.println("enter # of columns");
-		columns =scanner.nextInt();
-		System.out.println("enter # of symbol");
-		symbol =scanner.next();
+		//TODO  arrays
 		
+		String[] cars = {"tesla","corvette","BMW"};
+		cars[0]="mustang";
 		
-		
-		for(int i = 1; i<=rows;i++) {
-			System.out.println();
-			for(int j=1; j<=columns;j++) {
-				System.out.print(symbol);
-			}
-		}
-		
-		
-		
-		
-		
+		System.out.print(cars[0]);
 		
 		
 		
