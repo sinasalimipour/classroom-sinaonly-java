@@ -236,7 +236,11 @@ public class Main {
 		cars[1]= "corvette";
 		cars[2]= "tesla";
 		cars[3]= "camaro";
-		System.out.print(cars[2]);
+//		System.out.print(cars[2]);
+		
+		for(int i=0;i<cars.length;i++) {
+			System.out.print(cars[i]);
+		}
 		
 		
 		
