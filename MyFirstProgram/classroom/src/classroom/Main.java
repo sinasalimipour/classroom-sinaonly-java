@@ -293,23 +293,24 @@ public class Main {
 		
 		
 		
-		
-		//TODO ArrayList
-		
-		ArrayList<String> food = new ArrayList<String>();
-		
-		food.add("pizza");
-		food.add("hotdog");
-		food.add("humbger");
-		
-		food.set(0, "sushi");
-		food.remove(0);
-		
-		for(int i=0; i<food.size();i++) {
-			
-			System.out.println(food.get(i));
-			
-		}
+//		
+//		//TODO ArrayList
+//		
+//		ArrayList<String> food = new ArrayList<String>();
+//		
+//		food.add("pizza");
+//		food.add("hotdog");
+//		food.add("humbger");
+//		
+//		food.set(0, "sushi");
+//		food.remove(0);
+//		food.clear();
+//		
+//		for(int i=0; i<food.size();i++) {
+//			
+//			System.out.println(food.get(i));
+//			
+//		}
 		
 		
 		
