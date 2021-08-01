@@ -1,6 +1,7 @@
 package classroom;
 
 import java.util.ArrayList;
+import java.util.*;
 
 public class Main {
 
@@ -311,6 +312,37 @@ public class Main {
 //			System.out.println(food.get(i));
 //			
 //		}
+		
+		//TODO 2D ArrayList
+		
+		ArrayList<ArrayList<String>> Grocerylist = new ArrayList();
+		
+		ArrayList<String> bakeryList = new ArrayList();
+		bakeryList.add("pasta");
+		bakeryList.add("bread");
+		bakeryList.add("donuts");
+		
+		
+		
+		ArrayList<String> produceList = new ArrayList();
+		produceList.add("tomato");
+		produceList.add("peppers");
+		produceList.add("zuccihi");
+		
+		ArrayList<String> sodaList = new ArrayList();
+		sodaList.add("coka");
+		sodaList.add("soda");
+	
+		Grocerylist.add(bakeryList);
+		Grocerylist.add(produceList);
+		Grocerylist.add(sodaList);
+		
+		System.out.println(Grocerylist.get(2).get(1));
+	
+		
+		
+		
+		
 		
 		
 		
