@@ -389,20 +389,22 @@ public class Main {
 		String myString="sina";
 		int myInt = 50;
 		double myDouble = 1000;
-		
-		System.out.printf("%b",myBoolean);
-		System.out.printf("%c",myChar);
-		System.out.printf("%s",myString);
-		System.out.printf("%d",myInt);
-		System.out.printf("%f",myDouble);
-		
-		
+		//[conversion-character]
+//		System.out.printf("%b",myBoolean);
+//		System.out.printf("%c",myChar);
+//		System.out.printf("%s",myString);
+//		System.out.printf("%d",myInt);
+//		System.out.printf("%f",myDouble);
 		
 		
 		
+		//System.out.printf("hello %10s",myString);
+		//System.out.printf("hello %-10s",myString);
 		
+		//System.out.printf("you have the much money %.2f",myDouble);
 		
-		
+		//System.out.printf("you have the much money %0+20f",myDouble);
+		System.out.printf("you have the much money %,f",myDouble);
 		
 		
 	}
