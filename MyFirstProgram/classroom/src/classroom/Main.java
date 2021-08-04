@@ -382,13 +382,13 @@ public class Main {
 		
 		
 		//System.out.printf("the is %d format string ",123);
-		
-		
-		boolean myBoolean = true;
-		char myChar='@';
-		String myString="sina";
-		int myInt = 50;
-		double myDouble = 1000;
+//		
+//		
+//		boolean myBoolean = true;
+//		char myChar='@';
+//		String myString="sina";
+//		int myInt = 50;
+//		double myDouble = 1000;
 		//[conversion-character]
 //		System.out.printf("%b",myBoolean);
 //		System.out.printf("%c",myChar);
@@ -404,7 +404,7 @@ public class Main {
 		//System.out.printf("you have the much money %.2f",myDouble);
 		
 		//System.out.printf("you have the much money %0+20f",myDouble);
-		System.out.printf("you have the much money %,f",myDouble);
+		//System.out.printf("you have the much money %,f",myDouble);
 		
 		
 	}
