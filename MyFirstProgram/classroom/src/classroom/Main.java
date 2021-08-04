@@ -344,8 +344,12 @@ public class Main {
 		
 		
 		
-		
-		
+//		String[] animals = {"cat","dog"};
+		ArrayList<String> animals = new ArrayList<String>();
+		animals.add("cat");
+		animals.add("dog");
+		for(String i : animals)
+		System.out.println(i);
 		
 		
 		
