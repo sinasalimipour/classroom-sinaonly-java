@@ -381,11 +381,20 @@ public class Main {
 //		//TODO printf 
 		
 		
+		//System.out.printf("the is %d format string ",123);
 		
 		
+		boolean myBoolean = true;
+		char myChar='@';
+		String myString="sina";
+		int myInt = 50;
+		double myDouble = 1000;
 		
-		
-		
+		System.out.printf("%b",myBoolean);
+		System.out.printf("%c",myChar);
+		System.out.printf("%s",myString);
+		System.out.printf("%d",myInt);
+		System.out.printf("%f",myDouble);
 		
 		
 		
