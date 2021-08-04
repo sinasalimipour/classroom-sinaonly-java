@@ -370,8 +370,28 @@ public class Main {
 		
 //		//TODO overloaded methods
 		
-		double x = add(1.0,2.2,3.2,4.0);
-		System.out.println(x);
+//		double x = add(1.0,2.2,3.2,4.0);
+//		System.out.println(x);
+//		
+		
+		
+		
+		
+		
+//		//TODO printf 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
@@ -396,37 +416,37 @@ public class Main {
 //	//TODO overloaded methods
 	
 	
-	public static int add(int a , int b) {
-		System.out.println("the is overloaded methods #1 ");
-		return a+b;
-		
-	}
-public static int add(int a , int b, int c) {
-	System.out.println("the is overloaded methods #2 ");
-		return a+b+c;
-		
-	}
-public static int add(int a , int b, int c, int d) {
-	System.out.println("the is overloaded methods #3 ");
-	return a+b+c+d;
-	
-}
-//double
-public static double add(double a , double b) {
-	System.out.println("the is overloaded methods #4 ");
-	return a+b;
-	
-}
-public static double add(double a , double b, double c) {
-System.out.println("the is overloaded methods #5 ");
-	return a+b+c;
-	
-}
-public static double add(double a , double b, double c, double d) {
-System.out.println("the is overloaded methods #6 ");
-return a+b+c+d;
-
-}	
+//	public static int add(int a , int b) {
+//		System.out.println("the is overloaded methods #1 ");
+//		return a+b;
+//		
+//	}
+//public static int add(int a , int b, int c) {
+//	System.out.println("the is overloaded methods #2 ");
+//		return a+b+c;
+//		
+//	}
+//public static int add(int a , int b, int c, int d) {
+//	System.out.println("the is overloaded methods #3 ");
+//	return a+b+c+d;
+//	
+//}
+////double
+//public static double add(double a , double b) {
+//	System.out.println("the is overloaded methods #4 ");
+//	return a+b;
+//	
+//}
+//public static double add(double a , double b, double c) {
+//System.out.println("the is overloaded methods #5 ");
+//	return a+b+c;
+//	
+//}
+//public static double add(double a , double b, double c, double d) {
+//System.out.println("the is overloaded methods #6 ");
+//return a+b+c+d;
+//
+//}	
 	
 	
 	
