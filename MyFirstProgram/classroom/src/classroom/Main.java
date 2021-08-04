@@ -342,14 +342,50 @@ public class Main {
 	
 		 
 		
-		
+//		//TODO   for-each loop
 		
 //		String[] animals = {"cat","dog"};
-		ArrayList<String> animals = new ArrayList<String>();
-		animals.add("cat");
-		animals.add("dog");
-		for(String i : animals)
-		System.out.println(i);
+//		ArrayList<String> animals = new ArrayList<String>();
+//		animals.add("cat");
+//		animals.add("dog");
+//		for(String i : animals)
+//		System.out.println(i);
+//		
+//		//TODO	methods
+		
+//		String name = "sina";
+//		int age = 20;
+//		hello(name,age);
+		
+		
+//		int x = 3 ;
+//		int y = 4 ;
+////		int z = add (x,y);
+////		System.out.println(z);
+//		
+//		System.out.println(add(x,y));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
@@ -357,5 +393,20 @@ public class Main {
 		
 		
 	}
+	//TODO	methods
+	
+//	public static void hello(String name , int age) {
+//		System.out.println("hello "+ name );
+//		System.out.println("you are"+ age );
+//	}
+	
+	//TODO	methods
+	
+//	public static int add(int x , int y) {
+//		int z = x+y;
+//		//return z;
+//		return x+y;
+//	}
+	
 
 }
