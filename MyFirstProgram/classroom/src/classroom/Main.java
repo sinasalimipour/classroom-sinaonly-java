@@ -342,9 +342,12 @@ public class Main {
 	
 		 
 		
+		String[] animals = {"cat","dog"}
 		
 		
-		
+		for (String i : animals) {
+			System.out.println(i);
+		}
 		
 		
 		
