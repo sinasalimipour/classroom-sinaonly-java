@@ -407,12 +407,35 @@ public class Main {
 		//System.out.printf("you have the much money %,f",myDouble);
 		
 		//TODO	final keyword
+//		
+//		
+//		 final double PI= 3.14159;
+//
+//		 
+//		System.out.println(PI);
+//		
 		
 		
-		 final double pi= 3.14159;
-		pi=2.0;
-		 
-		System.out.println(pi);
+		//TODO	OOP
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
