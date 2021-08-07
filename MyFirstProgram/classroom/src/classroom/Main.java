@@ -449,17 +449,45 @@ public class Main {
 //		DiceRoller diceRoller = new DiceRoller();
 //		
 		
-		//TODO  overloaded constructors
+//		//TODO  overloaded constructors
+//		
+//		pizza Pizza = new pizza("thicc","suse","bared","top");
+//		
+//		
+//		
+//		System.out.println("here are ingerent");
+//		System.out.println(Pizza.bread);
+//		System.out.println(Pizza.sauce);
+//		System.out.println(Pizza.cheese);
+//		System.out.println(Pizza.topping);
+//		
 		
-		pizza Pizza = new pizza("thicc","suse","bared","top");
+		
+		
+		//TODO   toString method
 		
 		
 		
-		System.out.println("here are ingerent");
-		System.out.println(Pizza.bread);
-		System.out.println(Pizza.sauce);
-		System.out.println(Pizza.cheese);
-		System.out.println(Pizza.topping);
+		
+		
+		Car1 car = new Car1();
+		//System.out.println(car.toString());
+		System.out.println(car);
+//		System.out.println(car.make);
+//		System.out.println(car.model);
+//		System.out.println(car.color);
+//		System.out.println(car.year);
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

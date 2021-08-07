@@ -7,5 +7,9 @@ public class Car1 {
 	String color ="red";
 	int year = 2020;
 	
-	
+	public String toString() {
+		
+				
+		return make + "\n"+ model+ "\n"+ color + "\n" ; 
+	}
 }
