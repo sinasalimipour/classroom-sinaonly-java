@@ -446,9 +446,20 @@ public class Main {
 		
 		//TODO variable scope
 		
-		DiceRoller diceRoller = new DiceRoller();
+//		DiceRoller diceRoller = new DiceRoller();
+//		
+		
+		//TODO  overloaded constructors
+		
+		pizza Pizza = new pizza("thicc","suse","bared","top");
 		
 		
+		
+		System.out.println("here are ingerent");
+		System.out.println(Pizza.bread);
+		System.out.println(Pizza.sauce);
+		System.out.println(Pizza.cheese);
+		System.out.println(Pizza.topping);
 		
 		
 		

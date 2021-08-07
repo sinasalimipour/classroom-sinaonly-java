@@ -2,6 +2,7 @@ package classroom;
 import java.util.Random;
 
 public class DiceRoller {
+	//TODO variable scope
 	//Random random;
 	//int number;
 	
