@@ -464,20 +464,33 @@ public class Main {
 		
 		
 		
-		//TODO   toString method
-		
-		
-		
-		
-		
-		Car1 car = new Car1();
-		//System.out.println(car.toString());
-		System.out.println(car);
-//		System.out.println(car.make);
-//		System.out.println(car.model);
-//		System.out.println(car.color);
-//		System.out.println(car.year);
+//		//TODO   toString method
+//		
+//		
+//		
+//		
+//		
+//		Car1 car = new Car1();
+//		//System.out.println(car.toString());
+//		System.out.println(car);
+////		System.out.println(car.make);
+////		System.out.println(car.model);
+////		System.out.println(car.color);
+////		System.out.println(car.year);
 	
+		
+		
+		
+		//TODO   array of objects
+//		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
