@@ -428,23 +428,25 @@ public class Main {
 //		mycar2.drive();
 //		
 		
-		//TODO constructors
+//		//TODO constructors
+//		
+//		Human human1=new Human("rick",85,70);
+//		Human human2=new Human("sina",55,7);
+//		
+//		
+//		System.out.println(human2.age);
+//		
+//		
+//		human2.eat();
+//		human1.eat();
+//		human2.drink();
+//		human1.drink();
+//		
+//		
 		
-		Human human1=new Human("rick",85,70);
-		Human human2=new Human("sina",55,7);
+		//TODO variable scope
 		
-		
-		System.out.println(human2.age);
-		
-		
-		human2.eat();
-		human1.eat();
-		human2.drink();
-		human1.drink();
-		
-		
-		
-		
+		DiceRoller diceRoller = new DiceRoller();
 		
 		
 		
