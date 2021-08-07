@@ -2,7 +2,7 @@ package classroom;
 
 public class car {
 
-	//TODO	OOP
+	//TODO	OOP 
 	String make ="audio";
 	String model ="corvette";
 	int year = 2020;
@@ -15,5 +15,9 @@ public class car {
 	void brake () {
 		System.out.println("you steap brake");
 	}
+	
+	//TODO constructors
+	
+	
 	
 }

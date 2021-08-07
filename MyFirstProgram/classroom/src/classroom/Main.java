@@ -418,26 +418,29 @@ public class Main {
 		
 		//TODO	OOP
 		 
-		car mycar1 = new car();
-		car mycar2= new car();
+//		car mycar1 = new car();
+//		car mycar2= new car();
+//		
+//		System.out.println(mycar2.model);
+//		System.out.println(mycar1.color);
+//		System.out.println(mycar1.model);
+//		System.out.println(mycar1.price);
+//		mycar2.drive();
+//		
 		
-		System.out.println(mycar2.model);
-		System.out.println(mycar1.color);
-		System.out.println(mycar1.model);
-		System.out.println(mycar1.price);
-		mycar2.drive();
+		//TODO constructors
 		
-		
-		
-		
-		
-		
-		
-		
+		Human human1=new Human("rick",85,70);
+		Human human2=new Human("sina",55,7);
 		
 		
+		System.out.println(human2.age);
 		
 		
+		human2.eat();
+		human1.eat();
+		human2.drink();
+		human1.drink();
 		
 		
 		
