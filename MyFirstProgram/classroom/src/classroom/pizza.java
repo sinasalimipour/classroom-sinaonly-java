@@ -13,4 +13,11 @@ public class pizza {
 		this.cheese = cheese;
 		this.topping = topping;
 	}
+   pizza(String bread ,String cheese,String sauce){
+		
+		this.sauce = sauce;
+		this.bread = bread;
+		this.cheese = cheese;
+		this.topping = topping;
+	}
 }
