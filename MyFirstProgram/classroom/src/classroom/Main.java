@@ -417,11 +417,15 @@ public class Main {
 		
 		
 		//TODO	OOP
+		 
+		car mycar1 = new car();
+		car mycar2= new car();
 		
-		
-		
-		
-		
+		System.out.println(mycar2.model);
+		System.out.println(mycar1.color);
+		System.out.println(mycar1.model);
+		System.out.println(mycar1.price);
+		mycar2.drive();
 		
 		
 		
